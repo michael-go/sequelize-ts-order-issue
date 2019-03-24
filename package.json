@@ -1,0 +1,21 @@
+{
+  "name": "sequelize-ts-order-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node .",
+    "prepare": "npm run build-ts",
+    "build-ts": "tsc",
+    "watch-ts": "tsc -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^6.4.2",
+    "reflect-metadata": "^0.1.13",
+    "sequelize": "^3.34.0",
+    "sequelize-typescript": "^0.6.8",
+    "typescript": "^3.3.4000"
+  }
+}
